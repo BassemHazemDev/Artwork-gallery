@@ -1,0 +1,43 @@
+:root {
+  --text-color: #daf0ff;
+}
+/* 43aff6 */
+body {
+  background-color: #1a1a1a;
+  color: var(--text-color);
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 20px;
+}
+#terminal {
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+  background-color: #2E333F;
+  border: 0.1px solid var(--text-color);
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 10px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  justify-self: center;
+}
+#input-line {
+  justify-self: center;
+  align-items: center;
+}
+#prompt {
+  color: var(--text-color);
+}
+#command-input {
+  width: 500px;
+  height: 50px;
+  font-size: larger;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-family: "Courier New", monospace;
+  flex-grow: 1;
+  outline: none;
+}
